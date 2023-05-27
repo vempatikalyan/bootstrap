@@ -69,6 +69,48 @@ class = "list-group-item list-group-item-primary"
   class = "rounded-pill"
   class = "img-thumbnail"
 
+  Forms:
+  ======
+  class="form-control"
+  class="form-lable"
+  class="input-group"
+  class="input-group-text"
+  class="form-floating"
+  class="form-text"
+  disabled
+  readonly
+  class="form-select"
+  class="form-select-lg"
+  selected
+  multiple
+  size="3"
+  class = "form-check"
+  class = "form-check-input"
+  class = "form-check-lable"
+  class = "form-check form-switch" // type = "checkbox"
+  class = "form-check-inline"
+  
+  <input type="checkbox" class="btn-check">
+  <label class="btn btn-primary">Single toggle</label>
+  class = "form-range disabled" min=""max=""step=""
+
+  Cads:
+  ======
+  class = "card"
+  class = "img-card-top"
+  class = "card-body"
+  class="card-title"
+  class="card-text"
+  class="card-link"
+  class="card-subtitle"
+  class="card-header"
+
+  Spinner (Loading):
+  ==================
+  class="spinner-border"
+  class="spinner-grow"
+
+
 
 
 
