@@ -94,7 +94,7 @@ class = "list-group-item list-group-item-primary"
   <label class="btn btn-primary">Single toggle</label>
   class = "form-range disabled" min=""max=""step=""
 
-  Cads:
+  Cards:
   ======
   class = "card"
   class = "img-card-top"
