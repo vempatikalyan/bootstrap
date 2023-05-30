@@ -171,6 +171,18 @@ title="Popover title"
 data-trigger="focus"
 data-content="And here's some amazing content. It's very engaging. Right?"
 
+Pagination:
+===========
+class="pagination"
+class="page-item"
+class="page-link"
+&laquo;(<<)
+&raquo;(>>)
+disabled
+active
+lg,sm
+justify-content
+
 
 
 
