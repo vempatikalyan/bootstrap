@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
+    <title>Dropdown</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -19,8 +19,8 @@
     
 </head>
 <body>
-    <div class="dropdown m-5 text-center">
-        <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">Dropdown</button>
+    <div class="dropend m-5 text-center">
+        <button class="btn btn-success btn-lg dropdown-toggle" data-toggle="dropdown">Dropdown Button</button>
         <div class="dropdown-menu">
             <div class="dropdown-item">About Us</div>
             <div class="dropdown-item">Contact Us</div>
@@ -28,5 +28,54 @@
 
         </div>
     </div>
+    <div class="dropdown text-center">
+        <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropdown Link</a>
+        <ul class="dropdown-menu">
+            <li class="dropdown-item">HTML</li>
+            <li class="dropdown-item">CSS</li>
+            <li class="dropdown-item">BOOTSTRAP</li>
+            <li class="dropdown-item">React JS</li>
+        </ul>
+    </div>
+    <div class="d-flex justify-content-center gap-2 mt-3">
+        <div class="dropdown">
+            <button class="btn btn-secondary btn-lg dropdown-toggle" data-toggle="dropdown">Large Button</button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item">HTML</li>
+                <li class="dropdown-item">CSS</li>
+                <li class="dropdown-item">BOOTSTRAP</li>
+                <li class="dropdown-item">React JS</li>
+            </ul>
+        </div>
+        <div class="dropup btn-group">
+            <button class="btn btn-secondary btn-lg">Large Split Button</button>
+            <button class="btn btn-secondary btn-lg dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item active">HTML</li>
+                <li class="dropdown-item">CSS</li>
+                <li class="dropdown-item">BOOTSTRAP</li>
+                <li class="dropdown-item">React JS</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+<div class="dropdown text-center">
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropdown</button>
+        <ul class="dropdown-menu dropdown-menu-dark" data-bs-theme="dark">
+          <li><a class="dropdown-item rounded-2 active" href="#">Action</a></li>
+          <li><a class="dropdown-item rounded-2" href="#">Another action</a></li>
+          <li><a class="dropdown-item rounded-2" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item rounded-2" href="#">Separated link</a></li>
+        </ul>
+</div>
+
+
+
+
+    
   </body>
 </html>

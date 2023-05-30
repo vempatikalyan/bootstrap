@@ -110,6 +110,69 @@ class = "list-group-item list-group-item-primary"
   class="spinner-border"
   class="spinner-grow"
 
+  Grid:
+  =====
+  <div class="container text-center">
+        <div class="row">
+            <div class="col">Column</div>
+            <div class="col">Column</div>
+            <div class="col">Column</div>
+        </div>
+    </div>
+    class = col-xs(<576),sm(>=576),md(>=768),lg(>=992),xl(>=1200),xxl(>=1400)
+
+Dropdown:
+==========
+<div class="dropdown text-center">
+        <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">Dropdown Button</button>
+        <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropdown Link</a>
+        <div class="dropdown-menu">
+            <div class="dropdown-item active">About Us</div>
+            <div class="dropdown-item">Contact Us</div>
+            <div class="dropdown-item">Support Us</div>
+
+        </div>
+</div>
+class="dropdown-toggle-split"
+class="dropup"
+class="dropend"
+class="dropdown-center"
+
+Progress-bar:
+=============
+class="progress"
+class="progress-bar (width)"
+height
+lable
+back ground
+multiple bars
+class="progress-bar progress-bar-striped"
+class="progress-bar progress-bar-striped progress-bar-animated"
+
+Alert (Bootstrap 4):
+=======
+class="alert alert-danger"
+class="close" data-dismiss="alert"
+
+Popup Modal:
+============
+class="modal"
+class="modal-dialog"
+class="modal-content"
+class="modal-header"
+class="modal-body"
+class="modal-footer"
+
+Popovers:
+=========
+data-toggle="popover"
+data-placement="top"  bottom,left,right
+title="Popover title"
+data-trigger="focus"
+data-content="And here's some amazing content. It's very engaging. Right?"
+
+
+
 
 
 
